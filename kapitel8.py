@@ -11,10 +11,45 @@ def get(url):
 
 #uppgift 3
 
-def line():
-    print("----------")
+def line(bol=False):
+    if bol == True:
+        print("**********")
+    else:
+        print("----------")
 
-def header(title)
-    hej = title.lentgh()
-    xd = hej
-    print("")
+def header(title):
+    lenght = len(title)
+    
+    message = ""
+
+    centerValue = 10/lenght
+
+    for a in range(1,int(centerValue)*2+1):
+       
+        if a == 1:
+                message += "|"
+
+        if a == int(centerValue)*2+1:
+            message += "|"
+
+        message += " "
+
+        if a == int(centerValue):
+            message += title
+
+    print (message)
+
+def echo(text):
+    print("|",text)
+
+def prompt(text):
+    return input(text)
+
+def clear():
+    for x in range(0,15):
+        print("\n")
+
+
+
+
+    

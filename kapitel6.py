@@ -1,7 +1,5 @@
 import requests
 
-
-
 # uppgift 6.1
 # 
 # uppgift 6.2
