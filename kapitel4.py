@@ -3,7 +3,7 @@
 
 tot = 0
 
-for number in range(1000000):
+for number in range(1000000): #
     tot += number # adderar på varje tal. 
     
 print(tot)
@@ -34,7 +34,7 @@ print(reg)
 name = ["Maria", "Erik", "Karl"]
 lastname = ["Svensson", "Karlsson", "Andersson"]
 
-for _name in name:
+for _name in name: # för varje namn lägg till ett efternamn
     for _lastname in lastname:
         print(_name + " " + _lastname )
 

@@ -4,7 +4,7 @@ eye = input("Ögonfärg")
 
 hair = input("Hårfärg")
 
-
+# kollar om man matchar personen. Kollar flera conditions. 
 if gender == "man" and eye == "brun" and hair == "brun":
     print("du är Daniel Radcliffe")
 elif gender == "man" and eye == "brun" and hair == "röd":
@@ -22,8 +22,9 @@ else:
 
 age = int(input("skriv din ålder: "))
 
-timmar = [14, 13, 12, 11.5, 11, 10.5, 10, 9.5, 9, 8.5, 8]
+timmar = [14, 13, 12, 11.5, 11, 10.5, 10, 9.5, 9, 8.5, 8] # array med de olika åldrana-
 
+# kollar vilken ålder och skriver hur många timmar den ska sova
 if age == 1:
     print("du ska sova", timmar[0])
 
@@ -60,11 +61,12 @@ if age >= 17:
 
 state = input("Skriv landet ")
 
-norden = ["svergie", "finland", "norge", "danmark", "island"]
+# arrayer med de olika länderna
+norden = ["svergie", "finland", "norge", "danmark", "island"] 
 
 stor = ["england", "nordirland", "skottland", "wales"]
 
-if state.lower() in norden:
+if state.lower() in norden: # kollar om en string finns i arrayen. Gör den till små bokstäver för att matcha array
     print("du kommer från norden")
 elif state.lower() in stor:
     print("du kommer från storb ri<nrar")

@@ -5,7 +5,7 @@ female = ["Maria","Anna","Margareta","Elisabeth","Eva"]
 #uppgift 5
 print("Vem ska bort")
 namn = input()
-male.remove(namn)
+male.remove(namn) # tar bort
 female.remove(namn)
 # ---
 
@@ -15,13 +15,13 @@ print(female[4])
 print(male[1])
 
 # uppgift 2
-del male[1]
+del male[1] # tar bort
 del male[2]
 del female[0]
 # ---
 
 #uppgift 3
-male.sort()
+male.sort() # sorterar
 female.sort()
 # ---
 
